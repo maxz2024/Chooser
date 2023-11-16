@@ -1,0 +1,88 @@
+@import 'https://fonts.googleapis.com/css?family=Merriweather';
+body, html
+{
+    font-size: 16px !important;
+    margin: 0;
+}
+
+.nav__item
+{
+    padding: 15px 25px !important;
+    margin: 2px !important;
+}
+
+.main__content
+{
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+
+.ui-button
+{
+    padding: 10px 25px !important;
+}
+
+div {
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    max-width: 320px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    color: #465457;
+}
+
+.text {
+    text-align: center;
+}
+.students {
+    margin: 10;
+    font-size: 150%;
+}
+.textarea {
+    resize: none;
+    border-radius: 4px;
+}
+
+.student {
+    color: green;
+    font-size: 250%;
+    font-family: Segoe print;
+    font-weight: 900;
+    margin: 0;
+}
+
+.header h2 {
+    display: table;
+    width: auto;
+    margin: 15px auto;
+    letter-spacing: 2px;
+}
+
+.header h2:before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -25px;
+    width: 30px;
+    height: 20px;
+    border-top: 2px solid #fed57b;
+    border-left: 2px solid #fed57b;
+}
+
+.header h2:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    right: -25px;
+    width: 30px;
+    height: 20px;
+    border-bottom: 2px solid #fed57b;
+    border-right: 2px solid #fed57b; 
+}
